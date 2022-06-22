@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {SEOService} from "./core/seo.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,15 @@ import {SEOService} from "./core/seo.service";
 export class AppComponent {
   title = 'codetebah';
 
-  constructor(private SEOService: SEOService) {
+  constructor(private SEOService: SEOService, private router: Router) {
+  }
+
+  toHome() {
+    this.router.navigate(['/home'])
+  }
+
+  toAbout() {
+    this.router.navigate(['/about'])
   }
 }
+

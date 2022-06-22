@@ -24,6 +24,7 @@
     "@angular/platform-server": "^14.0.0",
     "@angular/router": "^14.0.0",
     "@nguniversal/express-engine": "^14.0.1",
+    "@woochulhyun/angular-library": "0.0.1",
     "express": "^4.15.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
