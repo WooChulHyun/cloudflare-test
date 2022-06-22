@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {SEOService} from "./core/seo.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'codetebah';
+
+  constructor(private SEOService: SEOService) {
+  }
 }
