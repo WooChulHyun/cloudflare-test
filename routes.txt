@@ -1,2 +1,4 @@
 /
 /home
+/test
+/product/1
